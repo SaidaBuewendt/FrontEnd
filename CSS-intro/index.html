@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to CSS</title>
+    <style>
+        p {
+            font-size: 20px;
+            /* Застилизуй тег P. По умолчанию у всех элементов страницы будут указываться данные настройки, только если отдельно не указано что-то другое внутри BODY*/
+            color: rgb(24, 78, 49);
+            background-color: beige;
+        }
+
+        h1 {
+            font-size: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        img {
+            border-radius: 100px;
+            border: 10px dashed;
+            border-color: cadetblue;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Заголовок</h1>
+    <img src="https://i.pinimg.com/originals/3a/ee/5b/3aee5b7a09da2b6579f6261d25817961.jpg" alt="Berlin"
+        style="width: 300px;">
+    <p style="background-color: rgb(87, 187, 187);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+        consequatur culpa, a modi, iusto excepturi, placeat rerum eos inventore tempore natus voluptas officia sint
+        repellat magnam enim! Iure, veniam facere.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque id illum suscipit quidem nisi at
+        similique, ipsam doloremque cum! Ad iusto veritatis eveniet quibusdam quos nesciunt corporis obcaecati! Quis!
+    </p>
+    <p id="myFirstID" class="myLovelyParagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque
+        id illum suscipit quidem nisi at
+        similique, ipsam doloremque cum! Ad iusto veritatis eveniet quibusdam quos nesciunt corporis obcaecati! Quis!
+    </p>
+    <p><a href="http://andron13.de" target="blank">andron13.de</a> <!-- BLANK  - открытие ссылки в новом окне -->
+        <a href="http://13.de" target="blank">13.de</a>
+    </p>
+    <div id="myFirstDiv">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas quas officiis ipsa unde ut aut facere, quis aliquid ducimus vero. Deleniti dolores aspernatur, magni voluptas veritatis est ratione. Dolorum, perferendis.</div>
+</body>
+
+</html>

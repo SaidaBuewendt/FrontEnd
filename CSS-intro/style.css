@@ -1,0 +1,36 @@
+body {
+    background-color: aquamarine;
+}
+
+#myFirstID {
+    /* ID важнее класса тк индивидуальный. Самый высокий приоритет */
+    color: black;
+    background-color: white;
+}
+
+.myLovelyParagraph {
+    font-size: 10px;
+}
+
+a [href="http://andron13.de"] {
+    color: deeppink;
+}
+
+a [href="http://13.de"] {
+    color: rgb(126, 35, 201);
+}
+
+p:hover {
+    background: red;
+}
+
+p::first-letter {
+    color: red;
+    font-size: larger;
+    text-transform: uppercase;
+}
+
+p::first-line {
+    color: royalblue;
+}
+#myFirstDiv {font-size: x-large;}

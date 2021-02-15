@@ -1,0 +1,17 @@
+table {
+    border-spacing: 20px;
+    width: 30%;
+    border: solid 10px skyblue;
+}
+
+tr {
+    height: 200%;
+}
+
+th,
+td {
+    padding: 10px 15px;
+    border: solid 1px green;
+    font-size: 20px;
+    font-weight: 700;
+}
